@@ -8,9 +8,11 @@ func main() {
 	}
 	for j := 0; j <= 10; j++ {
 		if j == 5 {
-			teks := []rune{'C', 'A', 'Ш', 'A', 'P', 'B', 'O'}
+			teks := []rune{'С', 'А', 'Ш', 'А', 'Р', 'В', 'О'}
+			// teks := "САШАРВО"
 			for indeks := 0; indeks < len(teks); indeks++ {
-				fmt.Printf("character %U '%s' starts at byte position %d \n", teks[indeks], string(teks[indeks]), indeks*2)
+				char := teks[indeks]
+				fmt.Printf("character %U '%s' starts at byte position %d \n", char, string(char), indeks*2)
 			}
 		} else {
 			fmt.Println("Nilai j = ", j)
