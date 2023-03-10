@@ -7,6 +7,7 @@ interface kosong (any)
 interface bisa digunakan membuat tipe data value berbeda
 elastic search
 realtime
+dev dependencies
 
 
 sesi3
