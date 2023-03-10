@@ -8,7 +8,7 @@ func main() {
 	}
 	for j := 0; j <= 10; j++ {
 		if j == 5 {
-			teks := "hai"
+			teks := "CAШAPBO"
 			for indeks := 0; indeks < len(teks); indeks++ {
 				fmt.Printf("Characters %U starts at byte position %d \n", rune(teks[indeks]), indeks*2)
 			}
