@@ -1,8 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("halodunia")
+	str := "selamat malam"
+	var chars []string
 
+	for _, char := range str {
+		chars = append(chars, string(char))
+	}
+
+	fmt.Println(chars)
 }
