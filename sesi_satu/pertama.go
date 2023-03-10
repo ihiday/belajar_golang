@@ -10,6 +10,7 @@ func main() {
 	j := true
 	heksa, _ := strconv.Atoi(fmt.Sprintf("%x", i))
 	var k float64 = 123.456
+
 	//menampilkan nilai i
 	fmt.Printf("%v \n", i)
 
