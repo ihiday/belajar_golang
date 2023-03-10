@@ -1,0 +1,21 @@
+sesi 1
+https://freshman.tech/snippets/go/cross-compile-go-programs/
+
+sesi 2
+https://www.bigocheatsheet.com/
+interface kosong (any)
+interface bisa digunakan membuat tipe data value berbeda
+elastic search
+realtime
+
+
+sesi3
+tidak ada name parameter golang
+iife biasanya digunakan untuk function dengan rata" bolean
+performa penting, tapi maintainabiliti lebih penting
+penggunaan iota mirip enum
+daripada cek satu" lebih baik memnggunakan interface kosong
+
+{}{}{}{}{}{}{}
+belajar lagi tentang reflect
+{}{}{}{}{}{}{}
