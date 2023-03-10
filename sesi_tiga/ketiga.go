@@ -9,12 +9,9 @@ func main() {
 	// deklarasi map kosong
 	data := map[string]int{}
 
-	for _, v := range str {
-		fmt.Println(string(v))
-	}
-
 	for i := 0; i < len(str); i++ {
 		karakter := string(str[i])
+		fmt.Println(karakter)
 		if string(str[i]) == karakter {
 			data[karakter] += 1
 		} else {
