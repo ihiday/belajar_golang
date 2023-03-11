@@ -10,18 +10,17 @@ func main() {
 	// deklarasi map kosong
 	data := map[string]int{}
 
-	for i := 0; i < len(str); i++ {
+	for _, v := range str {
 
 		// deklarasi untuk memudahkan memasukkan key
-		karakter := string(str[i])
+		karakter := string(v)
 
 		// menampilkan karakter
-		fmt.Println(karakter)
+		fmt.Print(karakter)
 
-		if string(str[i]) == karakter {
-			// melakukan input dan penambahan nilai jika karakter sama
-			data[karakter] += 1
-		}
+		// melakukan input dan penambahan nilai jika karakter sama
+		data[karakter] += 1
+
 	}
 	fmt.Println(data)
 }
